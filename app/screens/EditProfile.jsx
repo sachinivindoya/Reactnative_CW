@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   changePictureText: {
-    color: "#788eec",
+    color: "#4a0850",
     fontWeight: "bold",
   },
   inputContainer: {
@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   updateButton: {
-    backgroundColor: "#788eec",
+    backgroundColor: "#4a0850",
     padding: 15,
     margin: 20,
     borderRadius: 10,

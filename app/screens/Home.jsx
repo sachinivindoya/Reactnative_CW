@@ -134,7 +134,7 @@ const Home = ({ route }) => {
 
   return (
     <View style={styles.fullScreen}>
-      <LinearGradient colors={["#6A11CB", "#0E627C"]} style={styles.header}>
+      <LinearGradient colors={["#0E627C","#4a0850"]} style={styles.header}>
         <TouchableOpacity
           style={styles.imgContainer}
           onPress={() => navigation.navigate("UserProfile", { searchResults })}
@@ -148,7 +148,7 @@ const Home = ({ route }) => {
             <Ionicons name="person" size={60} color="#ccc" />
           )}
         </TouchableOpacity>
-        <Text style={styles.headerText}>𝓣𝓸𝓭𝓸 𝓛𝓲𝓼𝓽 </Text>
+        <Text style={styles.headerText}>My Memos </Text>
         <View style={styles.rightContainer}>
           <TouchableOpacity onPress={() => FIREBASE_AUTH.signOut()}>
             <Icon name="sign-out" size={30} color="white" />
@@ -158,7 +158,7 @@ const Home = ({ route }) => {
       <View style={styles.formContainer}>
         <TextInput
           style={styles.input}
-          placeholder="Add A New Todo"
+          placeholder=" +  New Memo"
           placeholderTextColor="#aaaaaa"
           onChangeText={setAddData}
           value={addData}
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
     borderColor: "#ffffff",
   },
   headerText: {
-    fontSize: 30,
+    fontSize: 25,
     fontWeight: "bold",
     color: "#ffffff",
     marginTop: 10,
@@ -264,7 +264,7 @@ const styles = StyleSheet.create({
   button: {
     height: 47,
     borderRadius: 10,
-    backgroundColor: "#788eec",
+    backgroundColor: "#4a0850",
     width: 80,
     marginLeft: "auto",
     marginRight: 10,
@@ -298,8 +298,8 @@ const styles = StyleSheet.create({
     height: 100,
   },
   itemHeading: {
-    fontWeight: "bold",
-    fontSize: 18,
+    fontWeight: "300",
+    fontSize: 15,
     marginRight: 22,
     width: 100,
   },
@@ -319,8 +319,8 @@ const styles = StyleSheet.create({
   },
   uploadFileButtonText: {
     color: "white",
-    fontSize: 16,
-    fontWeight: "bold",
+    fontSize: 14,
+    fontWeight: "400",
     marginLeft: 8,
   },
   image: {
@@ -342,8 +342,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     padding: "auto",
-    width: 120,
-    height: 120,
+    width: 150,
+    height: 150,
     borderRadius: 60,
     borderWidth: 3,
     borderColor: "#ccc",

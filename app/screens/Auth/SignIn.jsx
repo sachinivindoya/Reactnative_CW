@@ -36,7 +36,7 @@ const SignIn = () => {
 
   return (
     <View style={styles.container}>
-      <LinearGradient colors={["#6A11CB", "#0E627C"]} style={styles.header}>
+      <LinearGradient colors={["#4a0850", "#0E627C"]} style={styles.header}>
         <View style={styles.headerView}>
           <Text style={styles.headerText}>Don't have an account?</Text>
           <TouchableOpacity
@@ -50,7 +50,7 @@ const SignIn = () => {
 
       <View style={styles.formContainer}>
         <Text style={styles.welcomeBack}>Welcome Back</Text>
-        <Text style={styles.subText}>Enter your details below</Text>
+        <Text style={styles.subText}>Enter your login details </Text>
 
         <TextInput
           placeholder="User Email"
@@ -74,7 +74,7 @@ const SignIn = () => {
           <>
             <TouchableOpacity style={styles.signInButton} onPress={signIn}>
               <LinearGradient
-                colors={["#6A11CB", "#2575FC"]}
+                colors={["#4a0850", "#0E627C"]}
                 style={styles.signInGradient}
               >
                 <Text style={styles.signInText}>Sign in</Text>

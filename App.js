@@ -18,7 +18,7 @@ const InsideStack = createNativeStackNavigator();
 
 const GradientHeader = () => (
   <LinearGradient
-    colors={["#6A11CB", "#0E627C"]}
+    colors={["#4a0850", "#0E627C"]}
     style={{ flex: 1 }}
     start={{ x: 0, y: 0 }}
     end={{ x: 1, y: 1 }}

@@ -72,7 +72,7 @@ const SignUp = () => {
 
   return (
     <View style={styles.container}>
-      <LinearGradient colors={["#6A11CB", "#0E627C"]} style={styles.header}>
+      <LinearGradient colors={["#4a0850", "#0E627C"]} style={styles.header}>
         <View style={styles.headerView}>
           <Text style={styles.headerText}>Already have an account?</Text>
           <TouchableOpacity
@@ -86,7 +86,7 @@ const SignUp = () => {
 
       <View style={styles.formContainer}>
         <Text style={styles.welcomeBack}>Create your account</Text>
-        <Text style={styles.subText}>Enter your details below</Text>
+        <Text style={styles.subText}>Enter your details </Text>
         <TouchableOpacity
           style={styles.imgContainer}
           onPress={handleImageUpload}
@@ -119,7 +119,7 @@ const SignUp = () => {
           <>
             <TouchableOpacity style={styles.signInButton} onPress={signUp}>
               <LinearGradient
-                colors={["#6A11CB", "#2575FC"]}
+                colors={["#4a0850", "#0E627C"]}
                 style={styles.signInGradient}
               >
                 <Text style={styles.signInText}>Sign up</Text>
